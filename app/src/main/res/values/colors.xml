@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="daju">#2a9d8f </color>
+    <color name="parent">#f0e6ef</color>
+    <color name="background">#fcf6bd</color>
+    <color name="age">#b23a48</color>
+    <color name="date">#8d99ae</color>
+</resources>

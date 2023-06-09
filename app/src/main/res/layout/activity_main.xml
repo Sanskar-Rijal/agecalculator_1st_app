@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/parent"
+    android:padding="16dp"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="AGE CALCULATOR"
+        android:textColor="@color/daju"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+    <!--        android:padding="10dp"-->
+    <!--        android:background="@color/background"-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="AGE"
+        android:textColor="@color/daju"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+    <!--        android:background="@color/background"-->
+    <!--        android:padding="10dp"-->
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="YOUR AGE WILL COME IN NO TIME"
+        android:textColor="@color/daju"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btndatepicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:backgroundTint="@color/white"
+        android:text="SELECT DATE"
+        android:textSize="18sp"
+        android:textColor="#dad7cd" />
+
+    <TextView
+        android:id="@+id/seldate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="yyyy/mm/dd"
+        android:textColor="@color/date"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="SELECTED DATE"
+        android:textColor="@color/age"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/finaldate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="0000000"
+        android:textColor="@color/date"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="This is Your Age"
+        android:textColor="@color/age"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</LinearLayout>
